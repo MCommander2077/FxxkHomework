@@ -5,7 +5,7 @@ if __name__ == "__main__":
         url = "http://www.iinside.cn:7001/api_req"
         filePath=img
         text = ""
-        data={
+        data={                                   
             'password':password,
             'reqmode':'ocr_pp'
         }

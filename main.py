@@ -1,1 +1,2 @@
-from FHScreenShotModule import *
+from FHScreenShotModule import FHScreenShot
+print(FHScreenShot())

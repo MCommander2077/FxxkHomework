@@ -45,7 +45,10 @@ def ScreenShot_InProgram():
     beg = time.time()
     debug = False
     for i in range(10):
-        FHScreenShot_img = ImageGrab.grab(bbox=(250, 161, 1141, 610))
+        FHScreenShot_img = ImageGrab.grab(bbox=(300, 161, 1141, 610))
         # .reshape(img.size[1], img.size[0], 3)
         FHScreenShot_img = np.array(FHScreenShot_img.getdata(), np.uint8)
     end = time.time()
+
+if __name__ == '__main__':
+    print(FHScreenShot())
